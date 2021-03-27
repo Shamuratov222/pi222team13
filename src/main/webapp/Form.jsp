@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Калькулятор - площадь ромба</title>
 </head>
-<body>
+<body background= "https://sun9-27.userapi.com/c856036/v856036114/551e0/EIDFNlu01yw.jpg">
 <h1>Калькулятор - площадь ромба</h1>>
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <label for="first">Первая диагональ:</label>
