@@ -6,9 +6,9 @@
 <meta charset="UTF-8">
 <title>Калькулятор - площадь ромба</title>
 </head>
-<body background= "http://citadaskola.lv/wp-content/uploads/2015/11/extracolor3.jpg">
+<body background= "https://img3.goodfon.ru/original/2560x1440/a/ed/poligony-linii-grani-planeta.jpg">
 <h1 align="center">Калькулятор - площадь ромба</h1>>
-    <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
+    <form align="center" action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <label for="first">Первая диагональ:</label>
         <input type="text" name="first" id="first" value="${first}">
         <label for="second">Вторая диагональ: </label>

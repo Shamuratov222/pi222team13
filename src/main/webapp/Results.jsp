@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Результат расчета</title>
 </head>
-<body background= "http://citadaskola.lv/wp-content/uploads/2015/11/extracolor3.jpg">
+<body background= "https://img3.goodfon.ru/original/2560x1440/a/ed/poligony-linii-grani-planeta.jpg">
 <h1 align="center">Результат расчета</h1>
 <h2 align="center">Ваши введеные данные:</h2>
 <p align="center"><strong>Первая диагональ:</strong> ${first_result}</p>
@@ -14,7 +14,7 @@
 <p align="center"><strong>Результат:</strong> ${result}</p>
 
 
-<form  action="${pageContext.request.contextPath}/Form.jsp">
+<form align="center" action="${pageContext.request.contextPath}/Form.jsp">
     <input  type="submit" name="sign" value="Назад">
     </form>
 
