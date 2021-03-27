@@ -6,8 +6,8 @@
 <meta charset="UTF-8">
 <title>Калькулятор - площадь ромба</title>
 </head>
-<body background= "https://sun9-27.userapi.com/c856036/v856036114/551e0/EIDFNlu01yw.jpg">
-<h1>Калькулятор - площадь ромба</h1>>
+<body background= "http://citadaskola.lv/wp-content/uploads/2015/11/extracolor3.jpg">
+<h1 align="center">Калькулятор - площадь ромба</h1>>
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <label for="first">Первая диагональ:</label>
         <input type="text" name="first" id="first" value="${first}">

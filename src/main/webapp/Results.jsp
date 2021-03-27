@@ -6,16 +6,16 @@
 <meta charset="UTF-8">
 <title>Результат расчета</title>
 </head>
-<body background= "https://sun9-27.userapi.com/c856036/v856036114/551e0/EIDFNlu01yw.jpg">
-<h1>Результат расчета</h1>
-<h2>Ваши введеные данные:</h2>
-<p><strong>Первая диагональ:</strong> ${first_result}</p>
-<p><strong>Вторая диагональ:</strong> ${second_result}</p>
-<p><strong>Результат:</strong> ${result}</p>
+<body background= "http://citadaskola.lv/wp-content/uploads/2015/11/extracolor3.jpg">
+<h1 align="center">Результат расчета</h1>
+<h2 align="center">Ваши введеные данные:</h2>
+<p align="center"><strong>Первая диагональ:</strong> ${first_result}</p>
+<p align="center"><strong>Вторая диагональ:</strong> ${second_result}</p>
+<p align="center"><strong>Результат:</strong> ${result}</p>
 
 
-<form action="${pageContext.request.contextPath}/Form.jsp">
-    <input type="submit" name="sign" value="Назад">
+<form  action="${pageContext.request.contextPath}/Form.jsp">
+    <input  type="submit" name="sign" value="Назад">
     </form>
 
 </body>
