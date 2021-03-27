@@ -48,12 +48,15 @@ public class Calc extends HttpServlet {
 				first_try=0;
 				second_try=0;	
 			}
-			
+			if (first_try <= 0 || second_try <= 0) {
+				String g = "Переменная должна быть > 0";
+				
+			}
 			result=first_try*second_try*0.5;
 			request.setAttribute("result", result);
-		}
+		}}
 		
 	}
 	
 	
-}
+

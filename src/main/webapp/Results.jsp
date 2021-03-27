@@ -12,6 +12,7 @@
 <p><strong>Первая диагональ:</strong> ${first_result}</p>
 <p><strong>Вторая диагональ:</strong> ${second_result}</p>
 <p><strong>Результат:</strong> ${result}</p>
+<p><strong>Примечание:</strong> ${g}</p> 
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
