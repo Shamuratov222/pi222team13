@@ -38,8 +38,8 @@ public class Calc extends HttpServlet {
 		public void setAsRequestAttributesAndCalculate(HttpServletRequest request) {
 			request.setAttribute("first_result", first_calc);
 			request.setAttribute("second_result", second_calc);
-			int first_try;
-			int second_try;
+			double first_try;
+			double second_try;
 			try { 
 			first_try=Integer.parseInt(first_calc);
 			second_try=Integer.parseInt(second_calc);
