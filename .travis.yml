@@ -16,4 +16,4 @@ deploy:
       secure: "gkh7gJti3eLsRlGR2/sqMirwJB9J4ImTwKtuwKYYSjhRKCfRc8BN/dsf+0zMoslgUjr55pdgzDMd/pcmV8RCkfyL2cmEoSnsZJjqzKYykhzo10Qc3MLC/ShfjOFDChXVVocCjIaruQGzzaIMtr17QS3l74KjzGvgxOGP9Rb+bDl/jTp5cz4vIfeG7vunUt/QtDD/eUM4lrtsmDlqPuUhYCQ564vwoxMEgQ3xqcPF/1DdnFuwoN57SmoyllEZcPFQKxSP2iyyGRNsTqappKLRMiWFAun+8T0AOwWdvrDjDO+OReX6/VLEiK5VjFkIZSfBQ1B/XPmmmhRbeFBIJPcnut+p+l8MnG1ucYVJKVrypbgSmNHgCjbQ9v5GXk/KCcxeovfMAuVdAg3VRXFJccVOmO2jBJRMmEw1YbcZlhyfLp3H11p3LeIx2Uaq7llBcIsgo5onJ1N+jNrcAyVapcTqJm06YM26df16mf9lk3kfh+miuIZb7dAmf/3xUvUBxP2zWuBbkpBTMQRuQT9ygpKSpnCQlEtKTiphMxOZSeFm8O4YiX1HZ9yTFu4Gc3RdTkhZf8Ia2QQUXR/VcE3iqyTfg2vUuKtL68P6BHjAT8KhzF5ho9tsBBvUajv7NKlzHwit6pyt4pzyfcbAgVu7NDHduBqXaRmv5pHsmCy3cejj1rI="
    app:
       master: pi222team13
-      production: danilov-branch      
+      pi222team13DanilovBranch: danilov-branch      
