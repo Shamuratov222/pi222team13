@@ -14,5 +14,6 @@ deploy:
    provider: heroku
    api_key:
       secure: "wnmXMjDasD7nOBzmCHri+kbONndWK8uD/YOqM75ban1PosHWeZWrtuFzrc3uC+E9>
-   app:
-      pi222team13DanilovBranch: danilov-branch
+   on:
+      branch: pi222team13DanilovBranch
+   app: danilov-branch
