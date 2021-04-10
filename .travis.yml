@@ -15,5 +15,5 @@ deploy:
    api_key:
       secure: "wnmXMjDasD7nOBzmCHri+kbONndWK8uD/YOqM75ban1PosHWeZWrtuFzrc3uC+E9>
    on:
-      branch: pi222team13DanilovBranch
+      branch: master
    app: danilov-branch
