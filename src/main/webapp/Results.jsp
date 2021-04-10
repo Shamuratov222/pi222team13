@@ -11,7 +11,7 @@
 <h2 align="center">Ваши введеные данные:</h2>
 <p align="center"><strong>Первая диагональ:</strong> ${first_result}</p>
 <p align="center"><strong>Вторая диагональ:</strong> ${second_result}</p>
-<p align="center"><strong>Результат:</strong> ${result}</p>
+<p align="center"><strong>Результат(в мм):</strong> ${result}</p>
 
 
 <form align="center" action="${pageContext.request.contextPath}/Form.jsp">
