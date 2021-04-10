@@ -1,5 +1,3 @@
-language: java
-before_script:
 - echo "Starting build"
 script:
 - mvn clean package
@@ -10,9 +8,4 @@ after_succes:
 - ls -l $TRAVIS_BUILD_DIR/target
 after_failure:
 - echo "Build failed"
-deploy:
-   provider: heroku
-   api_key:
-      secure: "wnmXMjDasD7nOBzmCHri+kbONndWK8uD/YOqM75ban1PosHWeZWrtuFzrc3uC+E9XpBwRIE/dW3QauYRz/ntI1HIjt5KO+Hc5+8aUBFZFFbPb3MY9fSmJZrXlcKpIXHEQIn2IUunnD401U/yNMeOluBbrdjH7ieIe051NtDVAnHKL0jQPyTdiq9gRhzn2O+lPMzuHLFvenhEV6YxbxSAvvYdcskTfs9+GtUwQdK6Cy4FHiPXlb3n48+zinGIpO3Vd1m6BSw0E2HyVW30oQTbZtC6lkqxs2rwhjXr7sSYNny8LxxO044GX5bV+95aywGus7nkKqS6zUUdPHggR6Wtd5DYH8Et3IM+RWb6RmeCtENs2pwRahG4DjTiy9kTIZLQg1UuxgR1PlWMvdg7HlWTN7rReUmeNGrfJYJP+dSeDd8DwJHUmKlsCQiBD7upRAtUiKtdIuCvwECs9hn8NsR6OXrZ0OHXHcne2nr/zS9qJkpDs/0pdAkePT29oKkWViG+cz71swSCtcM/vKW5oL6EYmeoHDPKTi6e/JvmYZmzx+8aDKu44SpP8ujUHztG8pbecaB1ZtyB0cvxdy5LJCyOwHO59Qa4SSuxXCjx0w30st91gyuBRc2zAXicC5rvLTGWjEOXf7pvIMjOJPubm3IuavS+ggFi9PIcoIQg1psxW30="
-   app:
-      master: danilov-branch
+
