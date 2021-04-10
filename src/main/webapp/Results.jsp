@@ -9,9 +9,9 @@
 <body background= "https://img3.goodfon.ru/original/2560x1440/a/ed/poligony-linii-grani-planeta.jpg">
 <h1 align="center">Результат расчета</h1>
 <h2 align="center">Ваши введеные данные:</h2>
-<p align="center"><strong>Первая диагональ:</strong> ${first_result}</p>
-<p align="center"><strong>Вторая диагональ:</strong> ${second_result}</p>
-<p align="center"><strong>Результат:</strong> ${result}</p>
+<p align="center"><strong>Первая диагональ(см)):</strong> ${first_result}</p>
+<p align="center"><strong>Вторая диагональ (см):</strong> ${second_result}</p>
+<p align="center"><strong>Результат (мм):</strong> ${result}</p>
 
 
 <form align="center" action="${pageContext.request.contextPath}/Form.jsp">
