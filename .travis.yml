@@ -3,10 +3,12 @@ before_script:
 - echo "Starting build"
 script:
 - mvn clean package
-after_script:
-- echo "Script finished"
-after_succes:
-- echo "Build ready"
-- ls -l $TRAVIS_BUILD_DIR/target
-after_failure:
-- echo "Build failed"
+deploy:
+  provider: heroku
+  api_key:
+    secure: "VSkjrhULYxzzrimdoMb0M4uQO68DyNCL3zWrgJiRfttBMJYT3swUCbMgNg4f8RNf4x>
+  app:
+    master: pi222team13
+    pi222team13DanilovBranch: danilov-branch
+    KolesovaBranch: kolesova-branch
+    YusupovaBranch: yusupova-branch
