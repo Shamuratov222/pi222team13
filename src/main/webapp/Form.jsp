@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Калькулятор - площадь ромба</title>
+<title>Калькулятор - площадь ромба test </title>
 </head>
 <body background= "https://img3.goodfon.ru/original/2560x1440/a/ed/poligony-linii-grani-planeta.jpg">
 <h1 align="center">Калькулятор - площадь ромба</h1>>
