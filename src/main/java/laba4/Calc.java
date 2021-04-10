@@ -49,11 +49,11 @@ public class Calc extends HttpServlet {
 				second_try=0;	
 			}
 			
-			result=first_try*second_try*0.5;
-			request.setAttribute("result", result);
+			result=first_try*second_try*5;
+			request.setAttribute("result(β μμ)", result);
 		}}
 		
-	}
+	} 
 	
 	
 
