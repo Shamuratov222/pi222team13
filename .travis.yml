@@ -8,4 +8,3 @@ after_succes:
 - ls -l $TRAVIS_BUILD_DIR/target
 after_failure:
 - echo "Build failed"
-
