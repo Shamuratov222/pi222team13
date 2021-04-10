@@ -10,10 +10,4 @@ after_succes:
 - ls -l $TRAVIS_BUILD_DIR/target
 after_failure:
 - echo "Build failed"
-deploy:
-   provider: heroku
-   api_key:
-      secure: "wnmXMjDasD7nOBzmCHri+kbONndWK8uD/YOqM75ban1PosHWeZWrtuFzrc3uC+E9>
-   on:
-      branch: master
-   app: danilov-branch
+
